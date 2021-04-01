@@ -1,4 +1,4 @@
-const { Rule, LinValidator } = require('../../core/lin-validator-v2')
+const { Rule, LinValidator } = require('@core/lin-validator-v2')
 
 class TokenValidator extends LinValidator {
   constructor() {

@@ -1,5 +1,5 @@
 const { Sequelize, Model } = require('sequelize')
-const { sequelize } = require('../../core/db')
+const { sequelize } = require('@core/db')
 
 class User extends Model {
   static async registerByOpenid(openid) {

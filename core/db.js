@@ -1,5 +1,5 @@
 const { Sequelize, Model } = require('sequelize')
-const { dbName, host, port, user, password } = require('../config').database
+const { dbName, host, port, user, password } = require('@config').database
 
 const sequelize = new Sequelize(dbName, user, password, {
   dialect: 'mysql',
